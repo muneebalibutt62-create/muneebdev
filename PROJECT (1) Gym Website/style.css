@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(aaf3bcfe-5d59-4700-86ad-469d49cd7c5f.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: baloo bhai, cursive;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+    color: white;
+}
+
+.left img {
+    width: 68px;
+    filter: invert(100%);
+}
+
+.left div {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.middle {
+    display: block;
+    width: 100%;
+    margin: 100px auto;
+    top: 10%;
+}
+
+.right {
+    border: 3px solid yellow;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    color: azure;
+}
+
+.navbar {
+    background-color: white;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 0px 10px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px auto;
+    padding: 75px;
+    width: 44%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.formgroup button {
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
+.formgroup input {
+    font-family: baloo bhai, cursive;
+    text-align: center;
+    display: block;
+    width: 34%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 22px;
+}
