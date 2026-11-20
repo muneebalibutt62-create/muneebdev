@@ -78,45 +78,6 @@
 
     </div>
 </section>
-    <script>
-        const message = document.getElementById("hero-message");
-        const button = document.getElementById("change-message");
-        const resetbutton = document.getElementById("reset-message");
-
-        let showingWelcome = true;
-
-        //    button.addEventListener("click", function () {
-        //         if (showingWelcome === true) {
-        //             message.textContent = "Welcome to MuneebDev!";
-        //         } else {
-        //             message.textContent = "Thanks for visiting MuneebDev!";
-        //         }
-
-        //         button.textContent = 'Message Changed'
-        //         showingWelcome = !showingWelcome;
-        //     }); 
-
-        button.addEventListener('click', function () {
-            showWelcome()
-        });
-
-
-        resetbutton.addEventListener('click', function () {
-            message.textContent = "I build responsive websites for small businesses";
-        });
-
-        function showWelcome() {
-            if (showingWelcome === true) {
-                message.textContent = "Welcome to MuneebDev!"
-            }
-
-            else {
-                message.textContent = "Thanks for visiting MuneebDev!"
-            }
-
-            showingWelcome = !showingWelcome
-        }
-    </script>
 </body>
 
 </html>
