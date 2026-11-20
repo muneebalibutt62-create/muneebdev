@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuneebDev | Website Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="headline">
+        <p>Deployment at your fingertips</p>
+    </div>
+
+    <nav class="navbar">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="About-us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to MuneebDev</h1>
+        <p id="hero-message">I build responsive websites for small businesses.</p>
+        <button id="change-message">Click Me</button>
+        <button id="reset-message">Reset Message</button>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h2>Responsive Websites</h2>layouts that work on phones and computers.
+        </div>
+
+        <div class="card">
+            <h2>Website Design</h2>clear layouts for small businesses.
+        </div>
+
+        <div class="card">
+            <h2>Website Maintenance</h2>updates and fixes, where offered.
+        </div>
+    </div>
+    <article class="project-card">
+        <p>A fitness-themed website project.</p>
+        <a href="Project%20(1)%20Gym%20Website/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+    </article>
+
+    <article class="project-card">
+        <h3>KFC Clone</h3>
+        <p>A restaurant website recreation built for practice.</p>
+        <a href="PROJECT (2) KFC CLONE (not dangerous)/Index.html" target="_blank" rel="noopener noreferrer">View
+            Project</a>
+    </article>
+
+    <article class="project-card">
+        <h3>Snack Attack</h3>
+        <p>A snack-themed website project.</p>
+        <a href="Snack%20Attack/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+    </article>
+    </div>
+    </section>
+
+    <script>
+        const message = document.getElementById("hero-message");
+        const button = document.getElementById("change-message");
+        const resetbutton = document.getElementById("reset-message");
+
+        let showingWelcome = true;
+
+        //    button.addEventListener("click", function () {
+        //         if (showingWelcome === true) {
+        //             message.textContent = "Welcome to MuneebDev!";
+        //         } else {
+        //             message.textContent = "Thanks for visiting MuneebDev!";
+        //         }
+
+        //         button.textContent = 'Message Changed'
+        //         showingWelcome = !showingWelcome;
+        //     }); 
+
+        button.addEventListener('click', function () {
+            showWelcome()
+        });
+
+
+        resetbutton.addEventListener('click', function () {
+            message.textContent = "I build responsive websites for small businesses";
+        });
+
+        function showWelcome() {
+            if (showingWelcome === true) {
+                message.textContent = "Welcome to MuneebDev!"
+            }
+
+            else {
+                message.textContent = "Thanks for visiting MuneebDev!"
+            }
+
+            showingWelcome = !showingWelcome
+        }
+    </script>
+</body>
+
+</html>
