@@ -179,3 +179,11 @@ body {
 .hero-button:hover {
     background-color: #1d4ed8;
 }
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
