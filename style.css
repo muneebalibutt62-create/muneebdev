@@ -144,6 +144,22 @@ body {
     text-decoration: none;
 }
 
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: #1d4ed8;
+}
+
 .project-card a:hover {
     background-color: #1d4ed8;
 }
